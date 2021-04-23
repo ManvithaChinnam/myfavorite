@@ -1,0 +1,57 @@
+body{
+  background:linear-gradient(#9400d9 0%, #ffb5e1 100%);
+text-align:center;
+}
+#painting{
+  width=100px;
+  height:200px;
+  border-radius:50%;
+}
+.line{
+  background-color:black;
+  width: 70px;
+  height:6px;
+  margin:8px auto;
+}
+h1{
+  text-shadow:2px 2px #4f2020;
+  font-size:20px;
+}
+#bio{
+  padding:20px;
+  font-size:18;
+  text-align:center;
+}
+}
+.menu{
+    list-style:none;
+    font-family:cursive;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    color:black;
+}
+h2{
+    font-family: 'Recursive', sans-serif;
+}
+.list:hover{
+    color:black;
+}
+li{
+    display:inline;
+    float:right;
+}
+
+#mywork{
+    font-family: 'Recursive', sans-serif;
+}
+    html{
+        scroll-behavior: smooth;
+    }
+#picture:hover{
+    transform: scale(0.9);
+}
+#picture{
+    transition: transform .2s;
+    border:10px solid white;
+}
